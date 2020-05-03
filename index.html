@@ -1,0 +1,169 @@
+---
+layout: page
+description: "Make brain technology more simple!"
+---
+
+<!--置顶文章开始-->
+{% for post in site.posts %}
+  {% if post.istop %}
+    {% if paginator.page == 1 %}
+    <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+         <div class="post-header-img" style="background-image: url('{{ site.baseurl }}{{ post.preview-img }}')"></div>
+            <h2 class="post-title">
+                {{ post.title }}<font color="#0085a1">[置顶]</font>
+            </h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">
+                {{ post.subtitle }}
+            </h3>
+            {% endif %}
+            <div class="post-content-preview">
+                {{ post.content | strip_html | truncate:100 }}
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} | {{ post.date | date: "%Y-%m-%d" }} | {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}" target="_blank"> [{{ tag }}]</a>{% endfor %}
+        </p>
+    </div>
+    <hr>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+<!--置顶文章开始-->
+
+<!--普通文档流开始-->
+{% for post in paginator.posts %}
+{% if post.istop %}
+{% else %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+         <div class="post-header-img" style="background-image: url('{{ site.baseurl }}{{ post.preview-img }}')"></div>
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:100 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} | {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}" target="_blank"> [{{ tag }}]</a>{% endfor %}
+    </p>
+</div>
+<hr>
+{% endif %}
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 前一页</a>
+    </li>
+    {% endif %}
+
+    <li>
+    第{{ paginator.page }}页 / 跳第
+      <select name="mylink" id="mylink" onchange="window.location=mylink.value">
+        <option selected>选择</option>
+        <option value="../">1</option>
+	{% for page in (2..paginator.total_pages) %}
+        <option value="../page{{ page }}/">{{ page }}</option>
+	{% endfor %}
+      </select>
+      页 / 共{{ paginator.total_pages }}页
+    </li>
+
+
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">后一页 &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
+<div class="cb-gyh visible-lg visible-md" style="position: fixed;  bottom:266px;  right: 10px; z-index: 9998;">
+    <img src="/img/about-CR2-gentle.jpg" style="width: 136px; height: 136px;  border:1px solid green;"/>
+</div>
+
+<div class="cb-gyh visible-lg visible-md" style="position: fixed;  bottom:100px;  right: 10px; z-index: 9998;">
+    <img src="/img/avatar-by.jpg" style="width: 136px; height: 136px;  border:1px solid green;"/>
+</div>
+
+
+<!-- Contact Section Start -->
+
+    <section id="contact" class="section-padding">  
+     <form action="https://formspree.io/xbjagele" method="POST">    
+      <div class="contact-form">
+        <div class="container">
+          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="contact-block">
+                <h2 style="color: black">联系表格</h2>
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>                                 
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                     <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group"> 
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="submit-button">
+                        <button class="btn btn-primary" id="submit" type="submit">Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                        <div class="clearfix"></div> 
+                      </div>
+                    </div>
+                  </div>            
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="footer-right-area wow fadeIn">
+                <h2 style="color: black">联系地址</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>中国广州</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <p><a href="mailto:science52brain@outlook.com">science52brain@outlook.com</a></p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#">+8615999633732</a></p>
+                  </div> 
+    </section>
+    <!-- Contact Section End -->

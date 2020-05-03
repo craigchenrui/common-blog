@@ -1,0 +1,588 @@
+{
+	"code" : 0 ,
+	"data" : [
+	 
+	{
+		"title" : "基于ElasticSearch的内容检索系统 - java",
+		"url" : "/2019/09/28/content-search-with-es/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Andorid开发调试之run-as - android",
+		"url" : "/2019/09/10/android-run-as/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Arrays.asList之UnsupportedOperationException - java",
+		"url" : "/2019/08/20/arrays-aslist-uoexception/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "内容共享 - java",
+		"url" : "/2019/07/29/content-share/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "HashSet.add覆盖问题 - java",
+		"url" : "/2019/07/04/hashset-add/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Andorid AppLink配置 - android",
+		"url" : "/2019/06/29/android-app-link/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Javascript的undefined和null - web",
+		"url" : "/2019/06/17/js-undefined-and-null/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java源码在线编译执行 - java",
+		"url" : "/2019/06/14/java-online-compile/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java字符串单字符分割 - java",
+		"url" : "/2019/06/05/java-string-spilt/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "同域代理 - linux",
+		"url" : "/2019/06/01/domain-proxy/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java代理 - java",
+		"url" : "/2019/05/27/java-proxy/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "浮点精度 - java",
+		"url" : "/2019/05/07/float-precision/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "剪切板同步 - linux",
+		"url" : "/2019/04/17/clipboard-sync/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "零点时间 - java",
+		"url" : "/2019/04/13/java-today-zero-hour/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Zip几点小知识 - linux",
+		"url" : "/2019/03/20/zip-tricks/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Andorid AsyncTask解析 - android",
+		"url" : "/2018/08/04/android-async-task/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Linux命令之ln - java",
+		"url" : "/2018/01/07/linux-command-ln/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Shell下解析Json之jq - linux",
+		"url" : "/2017/11/27/command-jq/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "正则表达式之非获取匹配 - trick",
+		"url" : "/2017/10/01/regex-trick/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Chrome内容保存插件 - Just One File - web",
+		"url" : "/2017/05/30/chrome-plugin-for-save/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "深入浅出单实例Singleton模式 - java_pattern",
+		"url" : "/2017/02/07/head-first-singleton/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Hexo search组件 - web",
+		"url" : "/2016/11/29/hexo-search-component/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android导航栏隐藏与浮现(二) - android",
+		"url" : "/2016/09/16/android-navigation-bar-immerse-2/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java泛型方法 - java_android",
+		"url" : "/2016/09/12/java-generic-method/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Linux特殊权限 - linux",
+		"url" : "/2016/05/12/linux-special-privileges/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Intellij IDEA依赖同步及乱码问题 - java",
+		"url" : "/2016/03/03/intellij-idea-problems/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java调用远程方法 - java",
+		"url" : "/2016/02/05/java-remote-invocation/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Jekyll search组件 - web",
+		"url" : "/2016/01/18/jekyll-search-component/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Jquery操作单选框选中状态 - web",
+		"url" : "/2016/01/06/jquery-prop-and-attr/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Bootstrap输入建议库 autosuggest.js - web",
+		"url" : "/2015/12/22/jquery-auto-suggest/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "d3力学图(force layout)更新 - web",
+		"url" : "/2015/12/16/d3-force-layout-update/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java Generics(泛型) - java",
+		"url" : "/2015/12/08/java-generics/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "编码感悟 - feeling",
+		"url" : "/2015/12/01/develop-feeling/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Mysql与Tomcat编码问题 - server",
+		"url" : "/2015/11/30/mysql-tomcat-character/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "正方体涂色问题 - math_theory",
+		"url" : "/2015/11/15/polya-cube-color/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "SSH正向与反向代理 - network_linux",
+		"url" : "/2015/11/12/ssh-proxy/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Http与Socket - network_java",
+		"url" : "/2015/10/26/http-and-socket/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "同步aar到jCenter与maven central - java_android_maven",
+		"url" : "/2015/10/25/maven-repo/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android导航栏隐藏与浮现(一) - android",
+		"url" : "/2015/10/22/android-navigation-bar-immerse/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Apache下Https反向代理Http - server",
+		"url" : "/2015/10/08/apache-https-proxy/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "IOS8与9配置企业证书签名的应用 - ios",
+		"url" : "/2015/10/07/ios-certification/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "IOS UIWebView 优化 - ios_web",
+		"url" : "/2015/09/27/ios-uiwebview-optimization/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "git常用操作 - git",
+		"url" : "/2015/09/15/git-common/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "实用的陌生Shell命令 - linux_osx",
+		"url" : "/2015/08/31/shell-command/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Java LruCache - java_android",
+		"url" : "/2015/08/30/java-lru-cache/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Round Up To Power Of Two - java",
+		"url" : "/2015/08/28/round-up-to-power-of-two/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Codeboy Blog的搭建 - web",
+		"url" : "/2015/08/11/blog-build/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android LaunchMode and StartActivityForResult - android",
+		"url" : "/2015/07/31/android-launch-mode-and-start-activity-for-result/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android开发及使用技巧 - android",
+		"url" : "/2015/07/28/android-trick/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Ubuntu Vim中文显示 - linux",
+		"url" : "/2015/07/25/vim-chinese-display/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "获取所有分组中某列最大的行 - database",
+		"url" : "/2015/07/20/get-max-from-every-group/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android WebView页面加载优化 - android_network",
+		"url" : "/2015/07/17/android-webview-optimize/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "给jekyll添加炫酷简洁的搜索 - web",
+		"url" : "/2015/07/11/jekyll-search/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "a+=b 等价于 a=a+b ? - java",
+		"url" : "/2015/07/10/java-operate/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "图片灰度化 - java_discover",
+		"url" : "/2015/07/02/image-gray/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android Handler如何避免内存泄露 - android",
+		"url" : "/2015/06/28/android-unleak-hander/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Context, What Context? - android",
+		"url" : "/2015/06/28/android-context/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : " Js实现旋转的图片 - web",
+		"url" : "/2015/05/08/js-rorate-image/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android Ndk的应用 - android",
+		"url" : "/2015/05/04/android-ndk/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "HashMap的小优化 - java",
+		"url" : "/2015/04/29/java-hashmap-trick/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "配置ftp服务器只能上传不能进行其他操作 - server_web",
+		"url" : "/2015/01/06/ftp-no-download/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "ViewPager自适应高度 - android",
+		"url" : "/2014/11/26/android-viewpager/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Apache下配置认证用户 - server",
+		"url" : "/2014/11/16/apache-user-authorized/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "不劳而获 - java",
+		"url" : "/2014/11/06/java-trick-1/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Canopy算法计算聚类的簇数 - datamining_theory",
+		"url" : "/2014/11/02/datamine-canopy/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "图片格式判断 - discover",
+		"url" : "/2014/10/31/image-type-judge/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Osx使用技巧(2) - osx",
+		"url" : "/2014/10/24/osx-usage-2/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "P问题、NP问题和NPC问题 - theory",
+		"url" : "/2014/10/13/p-np-npc/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "IOS禁用系统应用 - ios",
+		"url" : "/2014/10/09/ios-restrict-app/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Osx使用技巧(1) - osx",
+		"url" : "/2014/10/07/osx-usage-1/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Html中的图片使用字符串(base64,svg)代替 - web",
+		"url" : "/2014/10/03/html-image-base64_svg/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Get and Post - web",
+		"url" : "/2014/10/03/get-and-post/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "SVM对简单验证码的识别 - datamining",
+		"url" : "/2014/10/03/datamine-svm/"
+	}
+	
+    
+	]
+}

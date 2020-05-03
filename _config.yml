@@ -1,0 +1,149 @@
+# Site settings
+title: Chen Rui Blog
+SEOTitle: 陈锐CR博客 | CR Blog
+header-img: img/post-bg-desk.jpg
+email: science52brain@outlook.com
+description: "Make brain technology more simple!"
+keyword: "CR, CR Blog, 陈锐CR的博客, EEG, fNIRS, 脑科学, 心理学, 心理刺激"
+url: "https://7988888.xyz"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://craigchenrui.github.io/" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Make brain technology more simple!"
+sidebar-avatar: /img/about-CR1-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# SNS settings
+RSS: ture
+zhihu_username:     braintechnology
+github_username:    craigchenrui
+facebook_username:  craigchenrui
+twitter_username:   craigchenrui
+weibo_username:     braintechnology
+jianshu_username:   899df98f18e3
+#linkedin_username
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+keep_files: [img]
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate, jekyll-sitemap]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+#来必利评论
+livere_comment: true
+
+# Valine评论系统开关
+# Valine.
+# You can get your appid and appkey from https://leancloud.app
+# more info please open https://valine.js.org
+valine:
+  enable: true
+  appid:  
+  appkey: 
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: true # Verification code
+  placeholder: 游客请在此处留言！留下邮箱，若有回复，您将及时收到提醒邮件！昵称填QQ号自动获取QQ头像及昵称！ # comment box placeholder
+  avatar: ''  # gravatar style
+  guest_info: 昵称或QQ号,邮件,网址 # custom comment header
+  pageSize: 10 # pagination size
+  # path: window.location.pathname
+  recordIP: true # 是否记录评论者IP
+  enableQQ: true # 是否启用昵称框自动获取QQ昵称和QQ头像, 默认关闭
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 3b3de40007cb453a33ad                            #生成的clientID
+  clientSecret: 6480059d05bbe56736752f733c18a13c86ad4680    #生成的clientSecret
+  repo: craigchenrui.github.io    #仓库名称
+  owner: craigchenrui   #github用户名
+  admin: craigchenrui
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: d2c34dfff1eda43ee3df799dfe9be4b9
+
+# Google Analytics
+ga_track_id: 'UA-159043031-1'            # Format: UA-xxxxxx-xx
+ga_domain: 7988888.xyz              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "知乎",
+        href: "https://www.zhihu.com/people/braintechnology"
+    },{
+	title: "微信公众号",
+	href: "https://mp.weixin.qq.com/s/e62b5FVwjZdRCgTmBh3xug"
+    },{
+	title: "B站",
+	href: "https://space.bilibili.com/328549846"
+    },{
+	title: "书店",
+	href: "https://j.youzan.com/S8UKli"
+    },{
+	title: "备用博客",
+	href: "https://chenrui.netlify.com/"
+    },{
+	title: "国内博客",
+	href: "http://k2pvcm.coding-pages.com/"
+    }
+]
+
+# Jekyll-Search settings 
+# 是否启用jekyll博客搜索插件
+# url: https://github.com/androiddevelop/jekyll-search
+Jekyll-Search: true
+
+# lightbox 图片预览插件
+lightbox: true
+
+
+ # Share社交分享按钮开关
+post_share: true
